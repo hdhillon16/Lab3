@@ -1,0 +1,5 @@
+def write_name_to_file(name):
+    with open("name.txt", "w") as file:
+        file.write(name)
+
+write_name_to_file("Your Name")
